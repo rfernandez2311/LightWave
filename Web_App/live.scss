@@ -1,0 +1,429 @@
+
+@import url(
+    'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700'
+);
+@import "reset";
+@import '_content-area.scss';
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #EAEDF3;
+   
+
+}
+
+
+#sideMenu{
+    
+    background: #010050;
+    width: 280px;
+    position: fixed;
+    top: 0;
+    width: 280px;
+    height: 100%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+#sideMenu nav{
+    padding-top: 120px;
+    
+}
+
+nav .active {
+    
+    background: #03017e;
+    border-right: 5px solid aqua;
+    padding: 15px 30px 15px 25px;
+
+    
+}
+
+
+#sideMenu nav a {
+    
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 300;
+    transition: all ease-in-out;
+    
+}
+nav a:hover{
+    background: #03017e;
+    border-right: 5px solid aqua;
+    padding: 15px 30px 15px 25px;
+    
+}
+
+#sideMenu nav a .fa{
+    
+   color: whitesmoke;
+   font-size: 1.4rem;
+   margin-right: 0.5rem;
+   display: inline-block;
+   width: 30px;
+   position: relative;
+   top: 2px;
+
+}
+
+/*............ This is my header section .....................*/
+
+
+ 
+header {
+    margin-left: 280px;
+    padding: 20px;
+    background: whitesmoke;
+}
+
+header .search-area{
+display: inline-block;
+width: 50%;
+}
+
+header .search-area .fa{
+    color: rgb(206, 205, 205);
+}
+header input[type="text"]{
+
+    background: transparent;
+    border: none;
+    font-size: 1.3rem;
+    color: aqua;
+    padding: 5px;
+    font-weight: 100;
+    width: 50%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+    
+}
+header input:hover{
+    background: rgb(223, 223, 223);
+}
+
+
+header .user-area{
+    display: inline-block;
+
+    padding: 10px;
+}
+
+
+header .user-area a{
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+    vertical-align: middle;
+    height: 30px;
+}
+
+header .user-area a .fa{
+    font-size: 20px;
+    padding-top: 5px;
+    color:  rgb(116, 117, 119);
+}
+
+header .user-area a .notification{ 
+    position: relative;
+    left: 60px;
+
+    
+}
+
+header .btn{
+
+    position: relative;
+    left: 600px;
+}
+
+header .btn:hover{
+    background: rgb(223, 223, 223);
+}
+
+
+img{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/******************Dashboard Cards**********************/
+
+
+.flex-container {
+    display: flex;
+    width: 1300px;
+    height: 500px;
+    
+    margin-left: 320px;
+    flex-flow: row wrap;
+    background-color: transparent;
+    margin-top: 120px;
+      }
+  
+  .flex-container > div {
+    background-color: white;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 220px;
+    margin: 10px;
+    margin-left: 20px;
+
+    left: 40px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    color: #010050;
+    box-shadow: 0 14px 28px  #010050, 0 10px 10px #010050;
+  
+  }
+
+  .flex-container .box1 .title{
+
+    font-size: 25px;
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+  }
+
+  .flex-container .box1 p{
+
+    font-size: 80px;
+    position: relative;
+    left: 60px;
+    bottom: 200px;
+  }
+  
+  
+  .flex-container .box1 img{
+    position: relative;
+    width: 50%;
+    top: -80px;
+    right: 120px;
+  }
+
+  .flex-container .box2 .title2{
+
+    font-size: 30px;
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+  }
+
+  .flex-container .box2 p{
+
+    font-size: 80px;
+    position: relative;
+    left: 60px;
+    bottom: 170px;
+  }
+
+
+
+  .flex-container .box2 img{
+    position: relative;
+    width: 40%;
+    bottom: 50px;
+    right: 120px;
+  }
+
+  .flex-container .box3 .title3{
+
+    font-size: 32px;
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+  }
+
+  .flex-container .box3 p{
+
+    font-size: 60px;
+    position: relative;
+    left: 75px;
+    bottom: 180px;
+  }
+
+   
+
+  .flex-container .box3 img{
+    position: relative;
+    width: 45%;
+    top: -80px;
+    right: 110px;
+  }
+
+  
+
+  .flex-container .box4 p{
+
+    font-size: 60px;
+    position: relative;
+    left: 60px;
+    bottom: 120px;
+  }
+
+  .flex-container .box4 img{
+    position: relative;
+    width: 50%;
+    top: -70px;
+    right: 100px;
+  }
+
+  .flex-container .box4 .action2{
+
+    font-size: 60px;
+    color: rgb(0, 255, 34);
+    position: relative;
+    left: 60px;
+    top: -200px;
+  }
+
+  .flex-container .box4 .action1{
+
+    font-size: 60px;
+    color: red;
+    position: relative;
+    left: 60px;
+    bottom: 200px;
+  }
+
+  .flex-container .box4 .title4{
+
+    font-size: 34px;
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+  } 
+
+  
+
+  .flex-container .box5 img{
+    position: relative;
+    width: 55%;
+    top: -70px;
+    right: 110px;
+  }
+
+  .flex-container .box5 .action3{
+
+    font-size: 60px;
+    color: red;
+    position: relative;
+    left: 60px;
+    bottom: 220px;
+  }
+  .flex-container .box5 .action4{
+
+    font-size: 60px;
+    color: rgb(0, 255, 34);
+    position: relative;
+    left: 60px;
+    bottom: 220px;
+  }
+
+  .flex-container .box5 .title5{
+
+    font-size: 34px;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+  } 
+
+.flex-container .box6 p{
+
+    font-size: 60px;
+    position: relative;
+    left: 80px;
+    bottom: 300px;
+  }
+  .flex-container .box6 img{
+    position: relative;
+    width: 50%;
+    top: -70px;
+    right: 120px;
+  }
+
+
+
+  .flex-container .box6 .title6{
+
+    font-size: 34px;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+  } 
+
+  .flex-container .box6 .action5{
+
+    font-size: 60px;
+    color: red;
+    position: relative;
+    left: 60px;
+    bottom: 200px;
+  }
+
+  .flex-container .box6 .action6{
+
+    font-size: 60px;
+    color: rgb(0, 255, 34);
+    position: relative;
+    left: 60px;
+    bottom: 200px;
+  }
+
+.flex-container .box7 p{
+
+    font-size: 60px;
+    position: relative;
+    left: 80px;
+    bottom: 300px;
+  }
+  .flex-container .box7 img{
+    position: relative;
+    width: 50%;
+    top: -80px;
+    right: 110px;
+  }
+
+
+
+  .flex-container .box7 .title7{
+
+    font-size: 34px;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+  } 
+
+  .flex-container .box7 .action7{
+
+    font-size: 60px;
+    color: red;
+    position: relative;
+    left: 60px;
+    bottom: 200px;
+  }
+
+  .flex-container .box7 .action8{
+
+    font-size: 60px;
+    color: rgb(0, 255, 34);
+    position: relative;
+    left: 60px;
+    bottom: 200px;
+  }
+
+
+  
