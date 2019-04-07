@@ -1,2 +1,2 @@
-*.c++ Linguistic-Language=Html
-
+* linguist-vendored
+*.c linguist-vendored=false
