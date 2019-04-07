@@ -1,1 +1,2 @@
-*.c linguist-language=HTML
+special-vendored-path/* linguist-vendored
+html linguist-vendored=true
